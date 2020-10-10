@@ -88,12 +88,18 @@ yarn add formik
 YUP:
 yarn add yup
 
+GATSBY CLI:
+npm install -g gatsby-cli
 
-GATSBY:
-gatsby new step00_gatsby_typescript_helloworld https://github.com/gatsbyjs/gatsby-starter-minimal
+GATSBY NEW PROJECT:
+gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
 
 GATSBY - Material-UI:
 npm install gatsby-plugin-material-ui @material-ui/core @material-ui/styles mdi-material-ui --save
+
+CONTENTFUL CLI:
+npm install -g contentful-cli
+yarn global add contentful-cli
 
 GATSBY CONTENTFUL:
 npm install gatsby-source-contentful
