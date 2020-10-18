@@ -100,7 +100,18 @@ npm install gatsby-plugin-material-ui @material-ui/core @material-ui/styles mdi-
 CONTENTFUL CLI:
 npm install -g contentful-cli
 yarn global add contentful-cli
-
+yarn add dotenv
 GATSBY CONTENTFUL:
 npm install gatsby-source-contentful
+yarn add @contentful/rich-text-react-renderer
 
+NETLIFY:
+sudo npm install -g netlify-cli
+netlify login
+netlify dev
+netlify deploy --prod
+
+FAUNADB:
+npm init
+npm install dotenv --save
+npm install faunadb --save
