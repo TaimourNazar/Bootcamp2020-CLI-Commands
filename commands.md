@@ -33,7 +33,7 @@ npx tsc
 
 TYPESCRIPT SETUP REACT:
 npx create-react-app my-app --template typescript
-# or
+or
 yarn create react-app my-app --template typescript
 
 npm i --save @types/react-dom
