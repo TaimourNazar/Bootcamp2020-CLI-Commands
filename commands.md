@@ -57,7 +57,7 @@ yarn add axios
 npm install axios --save
 
 
-APOLLO GRAPHQL:
+####APOLLO GRAPHQL:
 -Server (Only Once):
 npm i apollo-server
 npm install graphql
@@ -65,53 +65,59 @@ yarn add nodemon
 -Client (React):
 npm install @apollo/client graphql
 
-APOLLO GRAPHQL:SPACEX CLIENT
+####APOLLO GRAPHQL:SPACEX CLIENT
 yarn codegen
 yarn add -D @graphql-codegen/typescript-operations
 
-REDUX:
+####REDUX:
 yarn add redux react-redux
 
-REDUX TOOLKIT:
+####REDUX TOOLKIT:
 yarn add @reduxjs/toolkit
 yarn add react-redux
 
-REDUX TOOLKIT TEMPLATE:
+####REDUX TOOLKIT TEMPLATE:
 npx create-react-app my-app --template redux
 
-MIRAGE:
+####MIRAGE:
 yarn add --dev miragejs
 
-FORMIK:
+####FORMIK:
 yarn add formik
 
-YUP:
+####YUP:
 yarn add yup
 
-GATSBY CLI:
+####GATSBY CLI:
 npm install -g gatsby-cli
 
-GATSBY NEW PROJECT:
+####GATSBY NEW PROJECT:
 gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
 
-GATSBY - Material-UI:
+####GATSBY - Material-UI:
 npm install gatsby-plugin-material-ui @material-ui/core @material-ui/styles mdi-material-ui --save
 
-CONTENTFUL CLI:
+####CONTENTFUL CLI:
 npm install -g contentful-cli
 yarn global add contentful-cli
-yarn add dotenv
-GATSBY CONTENTFUL:
+
+####GATSBY CONTENTFUL:
 npm install gatsby-source-contentful
 yarn add @contentful/rich-text-react-renderer
 
-NETLIFY:
+####DOTENV:
+yarn add dotenv
+
+####NETLIFY:
 sudo npm install -g netlify-cli
 netlify login
 netlify dev
 netlify deploy --prod
 
-FAUNADB:
+####NETLIFY FUNCTIONS:
+netlify functions:create hello
+
+####FAUNADB:
 npm init
 npm install dotenv --save
 npm install faunadb --save
