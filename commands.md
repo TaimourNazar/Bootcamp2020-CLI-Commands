@@ -117,7 +117,13 @@ netlify deploy --prod
 ####NETLIFY FUNCTIONS:
 netlify functions:create hello
 
+#### Initialization
+npm init
+yarn init -y
+
 ####FAUNADB:
 npm init
 npm install dotenv --save
 npm install faunadb --save
+
+
