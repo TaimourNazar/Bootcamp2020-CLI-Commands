@@ -1,4 +1,4 @@
-MATERIALUI:
+#### MATERIALUI:
 yarn add @material-ui/core
 yarn add @material-ui/icons
 Add these two lines in index.html
@@ -6,58 +6,57 @@ Add these two lines in index.html
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
 
-CHARTJS:
+#### CHARTJS:
 npm install --save react-chartjs-2 chart.js
 
-NUMBERFORMATER:
+#### NUMBERFORMATER:
 
 
-COUNTUP:
+#### COUNTUP:
 yarn add react-countup
 
-ROUTER:
+#### ROUTER:
 yarn add react-router-dom@6
 yarn add history@5 react-router-dom@6 
 
-
-WEB ANIMATIONS:
+#### WEB ANIMATIONS:
 yarn add @wellyshen/use-web-animations
 +Tutorial: https://github.com/wellyshen/use-web-animations
 
 
-TYPESCRIPT SETUP SIMPLE:
+#### TYPESCRIPT SETUP SIMPLE:
 npm init
 npm i typescript@beta --save-dev
 npx tsc --init
 npx tsc
 
-TYPESCRIPT SETUP REACT:
+#### TYPESCRIPT SETUP REACT:
 npx create-react-app my-app --template typescript
 or
 yarn create react-app my-app --template typescript
 
 npm i --save @types/react-dom
 
-STYLED COMPONENTS with TYPESCRIPT:
+#### STYLED COMPONENTS with TYPESCRIPT:
 npm i styled-components @types/styled-components
 
 
-FIREBASE:
+#### FIREBASE:
 npm i --save firebase
 
-DEPLOYMENT ON FIREBASE:
+#### DEPLOYMENT ON FIREBASE:
 npm i -g firebase-tools
 firebase login
 firebase logout
 firebase init
 firebase deploy
 
-AXIOS:
+#### AXIOS:
 yarn add axios
 npm install axios --save
 
 
-####APOLLO GRAPHQL:
+#### APOLLO GRAPHQL:
 -Server (Only Once):
 npm i apollo-server
 npm install graphql
@@ -65,63 +64,63 @@ yarn add nodemon
 -Client (React):
 npm install @apollo/client graphql
 
-####APOLLO GRAPHQL:SPACEX CLIENT
+#### APOLLO GRAPHQL:SPACEX CLIENT
 yarn codegen
 yarn add -D @graphql-codegen/typescript-operations
 
-####REDUX:
+#### REDUX:
 yarn add redux react-redux
 
-####REDUX TOOLKIT:
+#### REDUX TOOLKIT:
 yarn add @reduxjs/toolkit
 yarn add react-redux
 
-####REDUX TOOLKIT TEMPLATE:
+#### REDUX TOOLKIT TEMPLATE:
 npx create-react-app my-app --template redux
 
-####MIRAGE:
+#### MIRAGE:
 yarn add --dev miragejs
 
-####FORMIK:
+#### FORMIK:
 yarn add formik
 
-####YUP:
+#### YUP:
 yarn add yup
 
-####GATSBY CLI:
+#### GATSBY CLI:
 npm install -g gatsby-cli
 
-####GATSBY NEW PROJECT:
+#### GATSBY NEW PROJECT:
 gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
 
-####GATSBY - Material-UI:
+#### GATSBY - Material-UI:
 npm install gatsby-plugin-material-ui @material-ui/core @material-ui/styles mdi-material-ui --save
 
-####CONTENTFUL CLI:
+#### CONTENTFUL CLI:
 npm install -g contentful-cli
 yarn global add contentful-cli
 
-####GATSBY CONTENTFUL:
+#### GATSBY CONTENTFUL:
 npm install gatsby-source-contentful
 yarn add @contentful/rich-text-react-renderer
 
-####DOTENV:
+#### DOTENV:
 yarn add dotenv
 
-####NETLIFY:
+#### NETLIFY:
 sudo npm install -g netlify-cli
 netlify login
 netlify dev
 netlify deploy --prod
 
-####NETLIFY FUNCTIONS:
+#### NETLIFY FUNCTIONS:
 netlify functions:create hello
 
 #### Initialization
 npm init
 yarn init -y
 
-####FAUNADB:
+#### FAUNADB:
 npm init
 npm install dotenv --save
 npm install faunadb --save
